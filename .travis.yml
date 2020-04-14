@@ -1,5 +1,10 @@
 language: java
 
+addons:
+  apt:
+    packages:
+    - junit
+
 before_install:
   - echo "before_install"
 install:
@@ -10,5 +15,4 @@ before_script:
 script:
   - echo "script"
   - make clean
-  - make complie
   - make run

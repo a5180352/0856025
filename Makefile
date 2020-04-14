@@ -11,7 +11,7 @@ MAIN = PriorityQueueTest
 .java.class:
 	$(JC) $(JFLAGS) $*.java
 
-compile: classes
+default: classes
 
 classes: $(CLASSES:.java=.class)
 
