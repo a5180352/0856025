@@ -2,8 +2,8 @@
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
-    <groupId>TFG</groupId>
-    <artifactId>TFG</artifactId>
+    <groupId>a5180352</groupId>
+    <artifactId>0856025</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <build>
         <sourceDirectory>src</sourceDirectory>
@@ -40,13 +40,6 @@
         <groupId>com.itextpdf</groupId>
         <artifactId>itextpdf</artifactId>
         <version>5.0.6</version>
-    </dependency>
-    <dependency>
-        <groupId>com.gestor</groupId>
-        <artifactId>GestorProblema1maquina</artifactId>
-        <version>1.0</version>
-        <scope>system</scope>
-        <systemPath>${project.basedir}/lib/GestorProblema1maquina.jar</systemPath>
     </dependency>
     <dependency>
         <groupId>org.junit.jupiter</groupId>
