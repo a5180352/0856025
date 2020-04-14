@@ -1,4 +1,4 @@
-JFLAGS = -g
+JFLAGS = -classpath /usr/share/java/junit.jar
 JC = javac
 JVM = java
 
@@ -16,7 +16,7 @@ default: classes
 classes: $(CLASSES:.java=.class)
 
 run: classes
-	$(JVM) $(MAIN)
+	$(JVM) $(JFLAGS) $(MAIN)
 
 clean:
 	$(RM) *.class

@@ -1,10 +1,12 @@
 language: java
-jdk: openjdk11
 
+dist: trusty
+
+jdk: openjdk11
 addons:
   apt:
     packages:
-    - junit4
+    - junit
 
 before_install:
   - echo "before_install"
