@@ -1,12 +1,5 @@
 language: java
 
-dist: trusty
-
-addons:
-  apt:
-    packages:
-    - junit5
-
 before_install:
   - echo "before_install"
 install:
