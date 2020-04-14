@@ -3,7 +3,7 @@ JC = javac
 JVM = java
 
 CLASSES = \
-	src/PriorityQueueTest.java
+	PriorityQueueTest.java
 
 MAIN = PriorityQueueTest
 
