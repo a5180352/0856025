@@ -17,7 +17,7 @@ before_script:
   - echo "before_script"
 script:
   - echo "script"
-  - mvn clean package
+  # - mvn clean package
   - mvn test
 
 after_success:
