@@ -17,7 +17,7 @@ before_script:
   - echo "before_script"
 script:
   - echo "script"
-  - javac -classpath /usr/share/java/junit.jar PriorityQueueTest.java
-  - java -classpath .:/usr/share/java/junit.jar PriorityQueueTest
-  # - make clean
-  # - make run
+  - mvn clean package
+
+after_success:
+  - bash <(curl -s https://codecov.io/bash)
