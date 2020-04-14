@@ -63,4 +63,9 @@ class PriorityQueueTest {
             PriorityQueue<Integer> pQueue = new PriorityQueue<>(0);
         });
     }
+
+    @Test
+    void failed_test() {
+        assertEquals(1, 0);
+    }
 }
