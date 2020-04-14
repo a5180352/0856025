@@ -1,9 +1,10 @@
 language: java
+jdk: openjdk11
 
 addons:
   apt:
     packages:
-    - junit
+    - junit4
 
 before_install:
   - echo "before_install"
