@@ -69,6 +69,7 @@ class PriorityQueueTest {
     @Test
     void failed_test() {
         int x = 0;
-        assertEquals(2, x);
+        int y = 1;
+        assertEquals(y, x);
     }
 }
