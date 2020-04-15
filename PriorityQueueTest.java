@@ -32,11 +32,11 @@ class PriorityQueueTest {
     @MethodSource("elementGenerator")
     void pQueueTest(ArrayList<Integer> elements) {
         PriorityQueue<Integer> pQueue = new PriorityQueue<>();
-        for (int e : elements) {
+        for (Integer e : elements) {
             pQueue.add(e);
         }
         Collections.sort(elements);
-        for (int e : elements) {
+        for (Integer e : elements) {
             assertEquals(e, pQueue.poll());
         }
     }
