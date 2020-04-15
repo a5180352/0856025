@@ -17,7 +17,8 @@ before_script:
   - echo "before_script"
 script:
   - echo "script"
-  - mvn test
+  - mvn clean package
+  # - mvn test
 
 after_success:
   - bash <(curl -s https://codecov.io/bash)
