@@ -1,4 +1,4 @@
-package lab4.travis_ci;
+package lovepoem.test2;
 
 import static org.junit.jupiter.api.Assertions.*;
 import org.junit.jupiter.api.BeforeAll;
@@ -68,6 +68,7 @@ class PriorityQueueTest {
 
     @Test
     void failed_test() {
-        assertEquals(2, 0);
+        int x = 0;
+        assertEquals(2, x);
     }
 }
